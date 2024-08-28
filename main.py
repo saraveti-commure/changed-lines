@@ -119,5 +119,5 @@ if __name__ == "__main__":
         f.write(
             f'changed_lines={json.dumps(filter_added_lines)}\n' +
             f'changed_files={filename_list.strip()}\n' +
-            f'changed_lines_data={json.dumps(added_line_data)}'
+            f'changed_lines_data={json.dumps(added_line_data)}\n'
             )
